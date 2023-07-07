@@ -10,12 +10,12 @@ const App = () => {
   const [open, setOpen] = useState(true);  
   return (
     <BrowserRouter>
-      <div className="flex flex-col h-full">
+      <div className="flex flex-col h-screen">
         <div>
           <Navbar />
         </div>
 
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-auto" >
           <div className={`bg-primary  p-5 pt-8 ${open ? "w-72" : "w-20"} duration-300 relative`}>
             <BsArrowLeftShort className={`bg-primary text-white text-3xl rounded-full absolute -right-3 top-9 border border-black-100 cursor-pointer ${!open && "rotate-180"}`} onClick={() => setOpen(!open)}  />
             <div className="inline-flex">
