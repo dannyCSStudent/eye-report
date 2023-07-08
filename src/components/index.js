@@ -1,11 +1,13 @@
 import Navbar from "./Navbar";
-import Sidebar from  "./Sidebar";
+import SidebarLeft from  "./SidebarLeft";
+import SidebarRight from './SidebarRight';
 import Content from "./Content";
 import Footer from "./Footer";
 
 export {
     Navbar,
-    Sidebar,
+    SidebarLeft,
+    SidebarRight,
     Content,
     Footer
 }
